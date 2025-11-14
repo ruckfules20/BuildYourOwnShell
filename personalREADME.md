@@ -9,3 +9,9 @@ cd codecrafters-shell-java
 Push an empty commit
 git commit --allow-empty -m 'test'
 git push origin master
+
+
+Tests
+The tester will execute your program like this:
+ chmod +x  your_program.sh
+./your_program.sh
