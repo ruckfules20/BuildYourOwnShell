@@ -19,7 +19,7 @@ public class Main {
         if(input.startsWith("echo")){
             // System.out.println(input);
             input =input.replace("echo","");
-            input.strip();
+            input=input.strip();
             System.out.println(input);
         }
         // TODO: make this a regex later
