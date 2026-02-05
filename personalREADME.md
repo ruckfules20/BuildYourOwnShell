@@ -15,3 +15,7 @@ Tests
 The tester will execute your program like this:
  chmod +x  your_program.sh
 ./your_program.sh
+
+run in wsl 
+
+$ curl https://codecrafters.io/install.sh | sh

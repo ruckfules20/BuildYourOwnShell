@@ -4,11 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // TODO: Uncomment the code below to pass the first stage
-        
-        
-
-
         boolean x=false;
         while(!x){
              
@@ -16,6 +11,12 @@ public class Main {
         Scanner scannerObj = new Scanner(System.in);
         String input = scannerObj.nextLine();
         input =input.strip();
+        // try {
+        //    Command cmd=Command.valueOf(input);
+        // } catch (Exception e) {
+            
+        // }
+        // if(
         if(input.startsWith("echo")){
             // System.out.println(input);
             input =input.replace("echo","");
